@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: center;
     padding: 100px 0;
-    color: var(--color);
+    color: white;
     height: 40%;
 }
 
@@ -29,10 +29,16 @@ body {
     flex-direction: column;
 }
 
+/* External resources */
+.btn-light {
+    background-color: var(--background-color) !important;
+    color: var(--color);
+}
+
 /* BODY */
 body {
-    /* background-color: var(--background-color); */
-    color: var(--color);
+    background-color: var(--color);
+    color: var(--background-color);
 }
 
 /* main */
