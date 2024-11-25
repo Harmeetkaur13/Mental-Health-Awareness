@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+:root {
+    --background-color-hex: #eae1cb;
+    --color: white;
+}
+
+/* Hero-section */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.181), rgba(0, 0, 0, 0.153)), url('../images/hero.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: var(--color);
+    height: 40%;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color);
+    color: var(--background-color-hex);
+}
+
+footer a {
+    color: var(--background-color-hex);
+}
+
+footer a:hover {
+    color: #fbfaf8;
+}
