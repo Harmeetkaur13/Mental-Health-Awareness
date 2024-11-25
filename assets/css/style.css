@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 :root {
-    --background-color-hex: #eae1cb;
-    --color: white;
+    --background-color: #2e3c32;
+    --color: #ceceaf;
 }
 
 /* Hero-section */
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.181), rgba(0, 0, 0, 0.153)), url('../images/hero.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.252)), url('../images/hero.webp');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -15,10 +15,29 @@
     height: 40%;
 }
 
-html,
-body {
+html {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    min-height: 100vh;
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BODY */
+body {
+    /* background-color: var(--background-color); */
+    color: var(--color);
+}
+
+/* main */
+main {
+    flex: 1;
 }
 
 /* Navbar */
@@ -34,14 +53,12 @@ body {
 
 /* Footer */
 footer {
-    background-color: var(--color);
-    color: var(--background-color-hex);
+    background-color: var(--background-color);
+    color: var(--color);
+    text-align: center;
+    padding: 10px 0;
 }
 
 footer a {
-    color: var(--background-color-hex);
-}
-
-footer a:hover {
-    color: #fbfaf8;
+    color: var(--color);
 }
