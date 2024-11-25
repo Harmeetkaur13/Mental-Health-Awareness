@@ -3,6 +3,7 @@
 :root {
     --background-color: #2e3c32;
     --color: #ceceaf;
+    /* --color: #959382; */
 }
 
 /* Hero-section */
@@ -35,7 +36,14 @@ body {
     color: var(--color);
 }
 
+/* inspirational stories */
+.inspirational-stories img {
+    width: 200px;
+    height: 200px;
+}
+
 /* BODY */
+
 body {
     background-color: var(--color);
     color: var(--background-color);
