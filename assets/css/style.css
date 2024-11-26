@@ -74,6 +74,12 @@ main {
     font-weight: bold;
 }
 
+/* think container */
+#think {
+    background-color: var(--color);
+    border: 1px solid var(var(--background-color));
+    color: var(--background-color);
+}
 
 /* Footer */
 footer {
