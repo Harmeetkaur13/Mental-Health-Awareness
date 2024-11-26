@@ -75,7 +75,7 @@ main {
 /* think container */
 #think {
     background-color: var(--color);
-    border: 1px solid var(var(--background-color));
+    border: 1px solid var(--background-color);
     color: var(--background-color);
 }
 
