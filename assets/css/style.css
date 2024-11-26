@@ -3,7 +3,6 @@
 :root {
     --background-color: #2e3c32;
     --color: #ceceaf;
-    /* --color: #959382; */
 }
 
 /* Hero-section */
@@ -36,10 +35,21 @@ body {
     color: var(--color);
 }
 
+/* wake-up section */
+#symptomsCarousel img {
+    width: 200px;
+    height: 200px;
+}
+
 /* inspirational stories */
 .inspirational-stories img {
     width: 200px;
     height: 200px;
+}
+
+/* section */
+section {
+    background-color: var(--color);
 }
 
 /* BODY */
