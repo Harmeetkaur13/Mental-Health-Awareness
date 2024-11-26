@@ -12,7 +12,7 @@
     background-position: center;
     padding: 100px 0;
     color: white;
-    height: 40%;
+    min-height: 43%;
 }
 
 html {
@@ -21,7 +21,11 @@ html {
     flex-direction: column;
 }
 
+/* BODY */
+
 body {
+    background-color: var(--color);
+    color: var(--background-color);
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -37,8 +41,8 @@ body {
 
 /* wake-up section */
 #symptomsCarousel img {
-    width: 200px;
-    height: 200px;
+    /* width: 200px; */
+    height: 300px;
 }
 
 /* inspirational stories */
@@ -52,12 +56,6 @@ section {
     background-color: var(--color);
 }
 
-/* BODY */
-
-body {
-    background-color: var(--color);
-    color: var(--background-color);
-}
 
 /* main */
 main {
