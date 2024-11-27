@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta name="description"
+        content="Mental Health Awareness, This is the website created for those who love their mental health or seeking any help or knowledge about it.  Visit website and additional resources for your help.">
+    <title>Mental Health Awareness | Home</title>
+    <!-- Preconnect to the domains -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <!-- Preload images -->
+    <link rel="preload" as="image" href="./assets/images/sadness.webp">
+    <link rel="preload" as="image" href="./assets/images/logo.webp">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
-        rel="stylesheet">
+        rel="stylesheet" defer>
     <!--Internal CSS  -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicons -->
@@ -25,7 +34,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.webp" alt="Logo" width="30" height="30">
+                <img src="assets/images/logo.webp" alt="Logo" width="30" height="30" rel="preload">
                 Mental Health Awareness
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -86,7 +95,7 @@
                                 <div class="col-lg-3 col-md-6  mt-3 ">
                                     <div class="card h-100  shadow-sm">
                                         <img src="./assets/images/sadness.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Persistent Sadness">
+                                            alt="Persistent Sadness" rel="preload">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Persistent Sadness</h5>
                                             <p class="card-text text-center">
@@ -98,7 +107,7 @@
                                 <div class="col-lg-3 col-md-6  mt-3 ">
                                     <div class="card h-100 shadow-sm">
                                         <img src="./assets/images/motivation.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Lack of Motivation">
+                                            alt="Lack of Motivation" rel="preload">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Lack of Motivation</h5>
                                             <p class="card-text text-center">
@@ -110,7 +119,7 @@
                                 <div class="col-lg-3 col-md-6 mt-3 ">
                                     <div class="card h-100 shadow-sm">
                                         <img src="./assets/images/concentrating.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Difficulty Concentrating">
+                                            alt="Difficulty Concentrating" rel="preload">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Difficulty Concentrating</h5>
                                             <p class="card-text text-center">
@@ -127,7 +136,7 @@
                                 <div class="col-md-6 col-lg-3  mt-3 ">
                                     <div class="card h-100 shadow-sm">
                                         <img src="./assets/images/irritability.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Irritability">
+                                            alt="Irritability" loading="lazy">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Irritability</h5>
                                             <p class="card-text text-center">
@@ -139,7 +148,7 @@
                                 <div class="col-lg-3 col-md-6  mt-3 ">
                                     <div class="card h-100 shadow-sm">
                                         <img src="./assets/images/fatigue.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Physical Fatigue">
+                                            alt="Physical Fatigue" loading="lazy">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Physical Fatigue</h5>
                                             <p class="card-text text-center">
@@ -151,7 +160,7 @@
                                 <div class="col-lg-3 col-md-6  mt-3 ">
                                     <div class="card h-100 shadow-sm">
                                         <img src="./assets/images/wannacry.webp" class="card-img-top mx-auto mt-3"
-                                            alt="Wanna Cry!">
+                                            alt="Wanna Cry!" loading="lazy">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Wanna Cry!</h5>
                                             <p class="card-text text-center">
@@ -405,7 +414,7 @@
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                         <div class="card shadow-sm mb-4 w-100">
                             <img src="./assets/images/Jane.webp" class="card-img-top rounded-circle mx-auto mt-3"
-                                alt="Jane Image">
+                                alt="Jane Image" loading="lazy">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-center">Finding Strength in Community</h5>
                                 <p class="card-text text-center">
@@ -423,7 +432,7 @@
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                         <div class="card shadow-sm mb-4 w-100">
                             <img src="./assets/images/Mark.webp" class="card-img-top rounded-circle mx-auto mt-3"
-                                alt="Mark Image">
+                                alt="Mark Image" loading="lazy">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-center">Overcoming Self-Doubt</h5>
                                 <p class="card-text text-center">
@@ -441,7 +450,7 @@
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                         <div class="card shadow-sm mb-4 w-100">
                             <img src="./assets/images/Sara.webp" class="card-img-top rounded-circle mx-auto mt-3"
-                                alt="Sara Image">
+                                alt="Sara Image" loading="lazy">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-center">Rediscovering Joy</h5>
                                 <p class="card-text text-center">
@@ -480,35 +489,35 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
                 <div class="col">
                     <a href="https://www.mind.org.uk/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">Mind</a>
+                        rel="noopener noreferrer">Go to:<br>Mind</a>
                 </div>
                 <div class="col">
                     <a href="https://www.nami.org/Home" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">NAMI</a>
+                        rel="noopener noreferrer">Go to:<br>NAMI</a>
                 </div>
                 <div class="col">
                     <a href="https://www.samhsa.gov/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">SAMHSA</a>
+                        rel="noopener noreferrer">Go to:<br>SAMHSA</a>
                 </div>
                 <div class="col">
                     <a href="https://www.nhs.uk/mental-health/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">NHS Mental Health</a>
+                        rel="noopener noreferrer">Go to:<br>NHS Mental Health</a>
                 </div>
                 <div class="col">
                     <a href="https://www.mentalhealth.org.uk/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">Mental Health Foundation</a>
+                        rel="noopener noreferrer">Go to:<br>Mental Health Foundation</a>
                 </div>
                 <div class="col">
                     <a href="https://www.mentalhealth.gov/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">MentalHealth.gov</a>
+                        rel="noopener noreferrer">Go to:<br>MentalHealth.gov</a>
                 </div>
                 <div class="col">
                     <a href="https://www.crisistextline.org/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">Crisis Text Line</a>
+                        rel="noopener noreferrer">Go to:<br>Crisis Text Line</a>
                 </div>
                 <div class="col">
                     <a href="https://www.mhanational.org/" target="_blank" class="btn btn-light btn-block w-100"
-                        rel="noopener noreferrer">Mental Health America</a>
+                        rel="noopener noreferrer">Go to:<br>Mental Health America</a>
                 </div>
             </div>
         </section>
@@ -534,7 +543,8 @@
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer>
     </script>
     <script>
         document
